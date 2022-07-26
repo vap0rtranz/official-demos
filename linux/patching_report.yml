@@ -1,5 +1,5 @@
 ---
-- hosts: "{{ HOSTS }}"
+- hosts: all
   become: yes
   vars:
     report_server: node1
